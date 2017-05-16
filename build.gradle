@@ -1,4 +1,5 @@
 apply plugin: 'java'
+apply plugin: 'scala'
 
 repositories {
     mavenCentral()
@@ -6,4 +7,5 @@ repositories {
 
 dependencies {
     compile 'it.unibo.alice.tuprolog:tuprolog:3.2.1'
+    compile 'org.scala-lang:scala-library:2.13.0-M1'
 }
